@@ -120,7 +120,7 @@ def addLogo(x, y, isBlack):
     title=scribus.createText(x+10,y+2, 50, 5)
     scribus.setFont("Arial Bold", title)
     scribus.setFontSize(8, title)
-    scribus.insertText("Cards Against Humanity", 0, title)
+    scribus.insertText("Game of Filth", 0, title)
     scribus.setTextColor(titleColor, title)
     return
 
